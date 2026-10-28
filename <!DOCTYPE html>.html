@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Style Guide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap">
+<style>
+  body { font-family: Montserrat, sans-serif; margin: 20px; color: #1A2950; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+  h4 { background: #E9EAED; color: #767E96; display: inline-block; padding: 4px 16px; margin: 20px 0 15px; font-weight: 500; }
+
+  button { width: 150px; height: 36px; border: 0; border-radius: 4px; font-family: inherit; cursor: pointer; }
+  .primary { background: #242E4C; color: white; }
+  .secondary { background: #E9EAED; color: #1A2950; }
+  button:hover { box-shadow: 0 4px 10px rgba(0,0,0,0.25); }
+
+  label { display: block; font-weight: 700; font-size: 13px; margin: 12px 0 6px; }
+  input { width: 250px; height: 34px; padding: 0 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; }
+  input.error { border-color: #738BFD; }
+  .msg { color: #F55623; font-size: 12px; }
+
+  .card { display: inline-block; width: 100px; height: 90px; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.15); margin-right: 20px; }
+  .card:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.3); }
+
+  .cor { display: inline-block; width: 55px; height: 55px; color: white; font-size: 9px; text-align: center; line-height: 55px; }
+
+  .f1 { font-size: 28px; font-weight: 700; color: #1E1A50; }
+  .f2 { font-size: 16px; font-weight: 700; color: #1E1A50; }
+  .f3 { font-size: 14px; font-weight: 700; }
+  .f4 { font-size: 14px; color: #738BFD; }
+  .f5 { font-size: 14px; color: #767E96; }
+  .f6 { font-size: 12px; }
+  .f7 { font-size: 12px; color: #767E96; }
+  .f8 { font-size: 12px; color: #F55623; }
+
+  .icones { font-size: 26px; letter-spacing: 10px; color: #242E4C; }
+</style>
+</head>
+<body>
+<div class="grid">
+
+  <div>
+    <h4>BUTTONS</h4><br>
+    <button class="primary">Primary Button</button>
+    <button class="secondary">Secondary Button</button>
+
+    <h4>INPUTS</h4>
+    <label>Full Name</label>
+    <input placeholder="ex. Lida Owen">
+    <label>Your Name</label>
+    <input value="Anthony Webb">
+    <label>Password</label>
+    <input class="error" type="password" placeholder="5+ characters">
+    <div class="msg">Your password must be at least <b>6 characters</b> long.</div>
+    <label>Email Address</label>
+    <input value="myemail@address.com" disabled>
+
+    <h4>CARDS</h4><br>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+
+  <div>
+    <h4>COLORS</h4><br>
+    <span class="cor" style="background:#242E4C">#242E4C</span>
+    <span class="cor" style="background:#738BFD">#738BFD</span>
+    <span class="cor" style="background:#F55623">#F55623</span>
+    <span class="cor" style="background:#767E96">#767E96</span>
+    <span class="cor" style="background:#E9EAED; color:#333">#E9EAED</span>
+    <span class="cor" style="background:#F3F4F6; color:#333">#F3F4F6</span>
+
+    <h4>FONTS - Montserrat</h4>
+    <p class="f1">Page Title | 28px Bold #1E1A50</p>
+    <p class="f2">Secondary Title | 16px Bold #1E1A50</p>
+    <p class="f3">Tertiary Title | 14px Bold #1A2950</p>
+    <p class="f4">Link | Montserrat 14px Medium #738BFD</p>
+    <p class="f5">Input Placeholder | 14px Medium #767E96</p>
+    <p class="f6">Basic Paragraph | 12px Medium #1A2950</p>
+    <p class="f7">Board Summary Label | 12px Medium #767E96</p>
+    <p class="f8">Alert Message | 12px Medium #F55623</p>
+
+    <h4>ICONS</h4>
+    <p class="icones">⌄ 📅 ✎ ⋮ 🔍 ☰ ▦ +</p>
+  </div>
+
+</div>
+</body>
+</html>

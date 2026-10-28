@@ -1,0 +1,35 @@
+<!DOCTYPE ><html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <h1>Design Hipermédia</h1>
+        <header>
+            <nav>
+                <a href="float.html">Float</a>
+                <a href="flexbox.html">Flexbox</a>
+                <a href="grid.html">Grid</a>
+            </nav>
+        </header>
+        
+        <h2>HTML - HyperText Markup Language</h2>
+        
+        <p>
+            <img src="imagens/autor.jpg" alt="Foto do autor" width="32" height="32">
+        </p>
+        
+         <h4p>Publicado por<strong> Marco Olim</strong>, 10 de outubro 2021</h4>
+        
+        <img width="500" height="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjNe11fJHU4qZj0gB2cJX6_76CwCce6-vOAU4Bf-XVvg&s=10" alt="Hacker moderno">
+        
+        <p>Os documentos em HTML são arquivos de texto simples que podem ser criados e editados em qualquer editor de
+textos comum.</p>
+        <p>Juntamente com o CSS e o Javascript, o HTML é a base de todos os websites e aplicações web.</p>
+    
+    </body>  
+
+</html>
